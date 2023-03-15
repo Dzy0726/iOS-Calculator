@@ -30,7 +30,7 @@ Xcode 12.0.1 + Swift 5.0
 
 #### 2.2.1 文件目录
 
-![image-20201116111100743](README.assets/image-20201116111100743.png)
+<img src="README.assets/image-20201116111100743.png" alt="image-20201116111100743" style="zoom:25%;" />
 
 采用MVC架构，Main.storyboard为View部分，CalculatorViewController.swift为Controller，CalculatorBrain为Model。DigitButton.swift中将所有Button设置为圆角，外观更符合iOS原生计算器。
 
@@ -42,11 +42,11 @@ View由三部分组成：
 - 红色矩形框中为运算符Button，与之相关联的为**performOperation**方法；
 - 蓝色矩形框中为数字Button，与之相关联的为**touchDigit**方法。
 
-<img src="README.assets/image-20201116111858986.png" alt="image-20201116111858986" style="zoom:50%;" />
+<img src="README.assets/image-20201116111858986.png" alt="image-20201116111858986" style="zoom: 25%;" />
 
 使用**AutoLayout**使之在多设备可以正常显示：
 
-<img src="README.assets/image-20201116193928501.png" alt="image-20201116193928501" style="zoom:50%;" />
+<img src="README.assets/image-20201116193928501.png" alt="image-20201116193928501" style="zoom: 25%;" />
 
 #### 2.2.3 Controller
 
